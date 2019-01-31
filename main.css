@@ -1,0 +1,32 @@
+/* box - content, padding, margin & border */
+/* float */
+
+
+h1 {
+    background-color: rgb(78, 55, 100);
+    color: white;
+    text-align: center}
+
+.item{
+        display: inline-block;
+    }
+
+
+.container {
+        height: 175px;
+        width: 400px;
+        background-color: rgb(96, 97, 150);
+        border: 10px black; 
+        color: white;
+        margin: 0 auto;
+        padding: 10px;
+
+    }
+body {padding: 0;
+margin: 0}
+
+form {
+    border: 1px solid rgb(83, 76, 76);
+    margin: 30px;
+    padding: 30px;
+}

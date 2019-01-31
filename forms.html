@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="main.css">
+    <title>Sign-in</title>
+</head>
+
+<body>
+    <h1>Customer Portal</h1>
+
+    <div class="container">
+            <strong>Sign-In</strong> <br><br>
+            <label >Username:</label>
+            <input type="text" name="" id="name">
+            <br><br>
+            <label >Password:</label>
+            <input type="password" name="" id="password">
+            <br><br>
+            <input type="submit" value="Enter">
+    </div>
+<h1>Not yet a customer?</h1>
+    <form action="newcustomer.php" method="POST">
+        <h2>Select Username</h2>
+        <label for="">Username:</label>
+        <input type="text" name="" id="name">
+        <br><br>
+        <label for="">Password:</label>
+        <input type="password" name="" id="password">
+        <br><br>
+        <label for=""><i>Re-enter password:</i></label>
+        <input type="passwordverify" name="" id="passwordverify">
+        <br>
+        <br>
+        <input type="submit" value="Enter">
+        <input type="reset" name="" id="" value="Clear"> <br><br>
+
+    </form>
+
+    <form action="customerinfo.php" method="GET">
+        <h2>Customer Information</h2>
+        <br>
+        <label for="">Name:</label>
+        <input type="text" name="name" id="">
+        <br> <br>
+        <label for="">Address:</label>
+        <input type="text" name="address" id="">
+        <br> <br>
+        <label for="">City:</label>
+        <input type="text" name="city" id="">
+        <label for="">State:</label>
+        <input type="text" name="State" id="" size="1">
+        <label for="">ZIP Code:</label>
+        <input type="text" name="Zip" id="" size="5">
+        <br><br>
+        <label for="">Email:</label>
+        <input type="text" name="email" id="">
+        <label for="">Phone:</label>
+        <input type="text" name="city" id="" placeholder="XXX-XXX-XXXX">
+    </form>
+</body>
